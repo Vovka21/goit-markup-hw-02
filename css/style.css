@@ -1,7 +1,56 @@
-/* Body */
+/* Body Portfolio.html */
 .body-portfolio {
   color: #e5e5e5;
-  font-family: "Roboto", "Arial", sans-serif;
+  font-family: "Roboto", "Raleway", "Arial", sans-serif;
+}
+
+.bg-header {
+  background-color: #ffffff;
+}
+
+/* WebStudio */
+.logo {
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.name {
+  color: #000000;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+/* Menu navigation */
+.point-nav {
+  color: #212121;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.point-nav:focus,
+.point-nav:hover {
+  color: #2196f3;
+}
+.address {
+  color: #757575;
+  font-family: Roboto;
+  font-weight: 500;
+  text-decoration: none;
+}
+.address:focus,
+.address:hover {
+  color: #2196f3;
 }
 
 /* BUTTON */
@@ -21,63 +70,15 @@
   cursor: pointer;
 }
 
-/* Список */
-ul {
-  list-style: none;
-}
-
-/* WebStudio */
-.logo {
-  color: #2196f3;
-  font-family: Raleway;
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-}
-.name {
-  color: #000000;
-  font-family: Raleway;
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-}
-
-/* Menu navigation */
-.point-nav {
-  color: #212121;
-  font-family: Roboto;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-}
-.point-nav:focus,
-.point-nav:hover {
-  color: #2196f3;
-}
-
-.address {
-  color: #757575;
-  text-decoration: none;
-}
-.address:focus,
-.address:hover {
-  color: #2196f3;
-}
-
 .invisible {
   display: none;
 }
 
 /* Menu */
+ul {
+  list-style: none;
+}
+
 h3 {
   color: #212121;
   font-family: Roboto;
@@ -98,6 +99,7 @@ h3 {
   letter-spacing: 0.03em;
 }
 
+/* Footer */
 .address-footer {
   color: #ffffff;
   opacity: 60%;
@@ -116,4 +118,100 @@ h3 {
 }
 .address-map {
   color: #ffffff;
+}
+
+/* Общее для ссылок */
+a {
+  text-decoration: none;
+}
+
+/* Кнопка -Заказать услугу- */
+.button {
+  background-color: #188ce8;
+  color: #ffffff;
+  height: 50px;
+  width: 200px;
+  border-radius: 4px;
+}
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+/* Верхняя линия */
+.bg-h1 {
+  background-color: #2f303a;
+}
+.h1 {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+/* Frame 1. Section 1 */
+.advantage p {
+  color: #757575;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.advantage h3 {
+  color: #212121;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.advantage {
+  background-color: #e5e5e5;
+}
+/* Frame 1. Section 2 */
+.work {
+  color: #212121;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.bg-section {
+  background-color: #e5e5e5;
+}
+/* Наша команда */
+.team h3 {
+  color: #212121;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.team p {
+  color: #757575;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+.bg-team {
+  background-color: #f5f4fa;
+}
+
+.body-index {
+  font-family: "Roboto", "Raleway", "Arial", sans-serif;
 }
